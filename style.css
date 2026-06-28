@@ -1,0 +1,121 @@
+/* ---------------------------
+   Style général du site
+---------------------------- */
+
+body {
+    background-color: #FFF5FA;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333333;
+}
+
+/* ---------------------------
+   En-tête
+---------------------------- */
+
+header {
+    background-color: #E6007E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ---------------------------
+   Menu
+---------------------------- */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD6EA;
+}
+
+/* ---------------------------
+   Bannière
+---------------------------- */
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #FFC2DD;
+}
+
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* ---------------------------
+   Bouton
+---------------------------- */
+
+.bouton {
+    background-color: #FF1493;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+/* ---------------------------
+   Sections
+---------------------------- */
+
+section {
+    text-align: center;
+    padding: 40px;
+}
+
+/* ---------------------------
+   Cartes
+---------------------------- */
+
+.carte {
+    display: inline-block;
+    width: 28%;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+/* ---------------------------
+   Images
+---------------------------- */
+
+.carte img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* ---------------------------
+   Pied de page
+---------------------------- */
+
+footer {
+    background-color: #E6007E;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
